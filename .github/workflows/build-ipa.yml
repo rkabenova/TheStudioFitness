@@ -1,0 +1,68 @@
+name: Build IPA
+
+on:
+  push:
+    branches: [ "ios-src" ]
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: macos-14
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Install XcodeGen
+        run: brew install xcodegen
+
+      - name: Generate Xcode project
+        run: xcodegen generate
+
+      - name: Select Xcode
+        run: sudo xcode-select -s /Applications/Xcode.app
+
+      - name: Build unsigned .app for iOS device
+        run: |
+          xcodebuild \
+            -project TheStudioFitness.xcodeproj \
+            -scheme TheStudioFitness \
+            -configuration Release \
+            -sdk iphoneos \
+            -destination "generic/platform=iOS" \
+            -derivedDataPath build \
+            CODE_SIGNING_ALLOWED=NO \
+            CODE_SIGNING_REQUIRED=NO \
+            CODE_SIGN_IDENTITY="" \
+            clean build
+
+      - name: Package unsigned IPA
+        run: |
+          APP_PATH=$(find build/Build/Products -maxdepth 2 -name "*.app" | head -n 1)
+          echo "Found app: $APP_PATH"
+          mkdir -p Payload
+          cp -R "$APP_PATH" Payload/
+          mkdir -p output
+          cd Payload && zip -r -y ../output/TheStudioFitness-unsigned.ipa . && cd ..
+
+      - name: Upload IPA artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: TheStudioFitness-unsigned-ipa
+          path: output/TheStudioFitness-unsigned.ipa
+          if-no-files-found: error
+
+      - name: Publish IPA to ipa-builds branch
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          cp output/TheStudioFitness-unsigned.ipa /tmp/TheStudioFitness-unsigned.ipa
+          git checkout --orphan ipa-builds
+          git rm -rf . >/dev/null 2>&1 || true
+          cp /tmp/TheStudioFitness-unsigned.ipa ./TheStudioFitness-unsigned.ipa
+          git add -f TheStudioFitness-unsigned.ipa
+          git commit -m "Built unsigned IPA from ${{ github.sha }}"
+          git push -f origin ipa-builds
