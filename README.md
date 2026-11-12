@@ -1,16 +1,20 @@
-# The Studio Fitness — Android App
+# The Studio
 
-Мобильное приложение для фитнес-студии **The Studio** (Jumping, Pilates, Jumping Yoga, Stretching), ул. Санжара Асфендиярова, 5, Астана.
+Фитнес-студия **The Studio** — Jumping, Pilates, Jumping Yoga, Stretching.
 
-## Скачать
+📍 ул. Санжара Асфендиярова, 5, Астана
+📞 +7 706 419-19-92
+👤 Главный тренер: Айгуль
+📷 Instagram: [@thestudio_fitness.jumping](https://instagram.com/thestudio_fitness.jumping)
+🌐 sportsciencethestudio.tilda.ws
+⭐ 4.9 (46 оценок · 28 отзывов)
 
-Готовый установочный файл: **[TheStudioFitness-debug.apk](./TheStudioFitness-debug.apk)**
+## Приложение
 
-Установка на Android (7.0+): скачать файл → открыть → разрешить установку из неизвестных источников → установить.
+В приложении: расписание занятий по дням недели, карточка тренера, отзывы клиентов, быстрая запись через WhatsApp и маршрут до студии.
 
-## Контакты студии
+### 📲 Скачать приложение
 
-- 📍 ул. Санжара Асфендиярова, 5, Астана
-- 📞 +7 706 419-19-92
-- 📷 Instagram: [@thestudio_fitness.jumping](https://instagram.com/thestudio_fitness.jumping)
-- 🌐 sportsciencethestudio.tilda.ws
+**[⬇️ TheStudioFitness.apk](./TheStudioFitness-debug.apk)**
+
+Установка: скачать файл → открыть → разрешить установку из неизвестных источников → установить. Поддерживаются устройства на Android 7.0 и новее.
