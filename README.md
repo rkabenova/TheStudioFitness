@@ -18,3 +18,15 @@
 **[⬇️ TheStudioFitness.apk](./TheStudioFitness-release.apk)**
 
 Установка: скачать файл → открыть → разрешить установку из неизвестных источников → установить. Поддерживаются устройства на Android 7.0 и новее.
+
+### 📱 Скриншоты
+
+<p>
+  <img src="./screenshots/01_home.jpg" width="220" alt="Главная" />
+  <img src="./screenshots/03_trainer.jpg" width="220" alt="Тренер" />
+  <img src="./screenshots/04_about.jpg" width="220" alt="О студии" />
+</p>
+
+### 🎨 3D-модель иконки
+
+[⬇️ TheStudio-icon-3d.glb](./assets/TheStudio-icon-3d.glb) — объёмная модель значка бренда (розовая плашка + золотая звезда, PBR-материалы: глянец/металлик), в формате glTF 2.0 binary. Открывается в любом просмотрщике glTF (например [gltf-viewer.donmccurdy.com](https://gltf-viewer.donmccurdy.com)) или Blender.
