@@ -1,0 +1,28 @@
+INFO: Constructing runner from config.
+INFO: Configuring Android Instrumentation driver: android_instrumentation_runtime {
+  instrumentation_info {
+    app_package: "kz.thestudio.fitness"
+    test_package: "kz.thestudio.fitness.test"
+    test_runner_class: "androidx.test.runner.AndroidJUnitRunner"
+  }
+  instrumentation_args {
+    args_map {
+      key: "additionalTestOutputDir"
+      value: "/sdcard/Android/media/kz.thestudio.fitness/additional_test_output"
+    }
+  }
+}
+am_instrument_timeout: 31536000
+
+INFO: No installables found in test fixture. Nothing to install.
+INFO: Installing [/home/runner/work/TheStudioFitness/TheStudioFitness/app/build/outputs/apk/debug/app-debug.apk] on device emulator-5554.
+INFO: Installing [/home/runner/work/TheStudioFitness/TheStudioFitness/app/build/outputs/apk/androidTest/debug/app-debug-androidTest.apk] on device emulator-5554.
+INFO: Start logcat streaming.
+INFO: Running Android Instrumentation driver.
+INFO: Stop logcat streaming.
+INFO: Uninstalling kz.thestudio.fitness for device emulator-5554.
+INFO: Uninstalling kz.thestudio.fitness.test for device emulator-5554.
+INFO: Execute kz.thestudio.fitness.ScreenshotTest.captureHome: PASSED
+INFO: Execute kz.thestudio.fitness.ScreenshotTest.captureAbout: PASSED
+INFO: Execute kz.thestudio.fitness.ScreenshotTest.captureSchedule: PASSED
+INFO: Execute kz.thestudio.fitness.ScreenshotTest.captureTrainer: PASSED

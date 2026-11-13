@@ -1,0 +1,67 @@
+11-13 17:44:15.994  6128  6147 I TestRunner: started: captureAbout(kz.thestudio.fitness.ScreenshotTest)
+11-13 17:44:16.005  6128  6147 D IdlingRegistry: Registering idling resources: [androidx.compose.ui.test.junit4.EspressoLink@fbc68b0]
+11-13 17:44:16.040  6128  6147 W Settings: Setting always_finish_activities has moved from android.provider.Settings.System to android.provider.Settings.Global, returning read-only value.
+11-13 17:44:16.109   838   881 D SplashScreenView: Build android.window.SplashScreenView{d2c1762 V.E...... ......ID 0,0-0,0}
+11-13 17:44:16.109   838   881 D SplashScreenView: Icon: view: null drawable: null size: 0
+11-13 17:44:16.109   838   881 D SplashScreenView: Branding: view: android.view.View{2b200f3 G.ED..... ......I. 0,0-0,0 #10204ef android:id/splashscreen_branding_view} drawable: null size w: 0 h: 0
+11-13 17:44:16.316   522  2204 W ServiceManagerCppClient: Permission failure: android.permission.ROTATE_SURFACE_FLINGER from uid=10193 pid=0
+11-13 17:44:16.316   522  2204 D PermissionCache: checking android.permission.ROTATE_SURFACE_FLINGER for uid=10193 => denied (63 us)
+11-13 17:44:16.316   522  2204 W ServiceManagerCppClient: Permission failure: android.permission.INTERNAL_SYSTEM_WINDOW from uid=10193 pid=0
+11-13 17:44:16.316   522  2204 D PermissionCache: checking android.permission.INTERNAL_SYSTEM_WINDOW for uid=10193 => denied (19 us)
+11-13 17:44:16.316   522  2204 W ServiceManagerCppClient: Permission failure: android.permission.ACCESS_SURFACE_FLINGER from uid=10193 pid=0
+11-13 17:44:16.316   522  2204 D PermissionCache: checking android.permission.ACCESS_SURFACE_FLINGER for uid=10193 => denied (19 us)
+11-13 17:44:16.336  1028  1309 D BtGatt.ScanManager: uid 10131 isForeground true scanMode -1
+11-13 17:44:16.337  1028  1309 D BtGatt.ScanManager: uid 10131 isForeground true scanMode -1
+11-13 17:44:16.337  1028  1309 D BtGatt.ScanManager: uid 10131 isForeground true scanMode 1
+11-13 17:44:16.392  6180  6180 I Choreographer: Skipped 32 frames!  The application may be doing too much work on its main thread.
+11-13 17:44:16.397  6128  6128 D LifecycleMonitor: Lifecycle status change: androidx.activity.ComponentActivity@b6dce74 in: PRE_ON_CREATE
+11-13 17:44:16.397  6128  6128 V ActivityScenario: Activity lifecycle changed event received but ignored because the reported transition was not ON_CREATE while the last known transition was PRE_ON_CREATE
+11-13 17:44:16.416  6128  6128 D LifecycleMonitor: Lifecycle status change: androidx.activity.ComponentActivity@b6dce74 in: CREATED
+11-13 17:44:16.417  6128  6128 V ActivityScenario: Update currentActivityStage to CREATED, currentActivity=androidx.activity.ComponentActivity@b6dce74
+11-13 17:44:16.420  6128  6128 D LifecycleMonitor: Lifecycle status change: androidx.activity.ComponentActivity@b6dce74 in: STARTED
+11-13 17:44:16.420  6128  6128 V ActivityScenario: Update currentActivityStage to STARTED, currentActivity=androidx.activity.ComponentActivity@b6dce74
+11-13 17:44:16.426  6128  6128 D LifecycleMonitor: Lifecycle status change: androidx.activity.ComponentActivity@b6dce74 in: RESUMED
+11-13 17:44:16.427  6128  6128 V ActivityScenario: Update currentActivityStage to RESUMED, currentActivity=androidx.activity.ComponentActivity@b6dce74
+11-13 17:44:16.499   838   880 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=falsecallback=android.view.ViewRootImpl$$ExternalSyntheticLambda17@e187d13
+11-13 17:44:16.500   522  2196 W InputManager-JNI: Input channel object 'cfa2d3e Splash Screen kz.thestudio.fitness.test (client)' was disposed without first being removed with the input manager!
+11-13 17:44:16.621  6180  6180 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=falsecallback=android.view.ViewRootImpl$$ExternalSyntheticLambda17@48ee19d
+11-13 17:44:16.646   522   541 W ziparchive: Unable to open '/data/app/~~-SyHUvxaSJnI8YXBe7SwPg==/kz.thestudio.fitness-HurskPr8C7eb1zg0lrZ4oA==/base.dm': No such file or directory
+11-13 17:44:16.679   522   541 I ActivityTaskManager: Displayed kz.thestudio.fitness/androidx.activity.ComponentActivity for user 0: +584ms
+11-13 17:44:16.684  6128  6128 D AutofillManager: Fill dialog is enabled:false, hints=[password, passwordAuto, creditCardNumber, creditCardSecurityCode, creditCardExpirationDate]
+11-13 17:44:16.688   522  2204 W InputManager-JNI: Input channel object '79c01e4 kz.thestudio.fitness.test/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity (client)' was disposed without first being removed with the input manager!
+11-13 17:44:16.696   838   880 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=falsecallback=android.view.ViewRootImpl$$ExternalSyntheticLambda17@e3847ae
+11-13 17:44:16.696   522  2196 W InputManager-JNI: Input channel object '3cee667 Splash Screen kz.thestudio.fitness (client)' was disposed without first being removed with the input manager!
+11-13 17:44:16.960  6128  6213 D ProfileInstaller: Installing profile for kz.thestudio.fitness
+11-13 17:44:17.227   838   881 D SplashScreenView: Build android.window.SplashScreenView{2d2eec2 V.E...... ......ID 0,0-0,0}
+11-13 17:44:17.227   838   881 D SplashScreenView: Icon: view: null drawable: null size: 0
+11-13 17:44:17.227   838   881 D SplashScreenView: Branding: view: android.view.View{49af4d3 G.ED..... ......I. 0,0-0,0 #10204ef android:id/splashscreen_branding_view} drawable: null size w: 0 h: 0
+11-13 17:44:17.232  6128  6128 D LifecycleMonitor: Lifecycle status change: androidx.activity.ComponentActivity@b6dce74 in: PAUSED
+11-13 17:44:17.232  6128  6128 V ActivityScenario: Update currentActivityStage to PAUSED, currentActivity=androidx.activity.ComponentActivity@b6dce74
+11-13 17:44:17.250   401   401 I BpBinder: onLastStrongRef automatically unlinking death recipients:
+11-13 17:44:17.410  1028  1309 D BtGatt.ScanManager: uid 10131 isForeground true scanMode -1
+11-13 17:44:17.410  1028  1309 D BtGatt.ScanManager: uid 10131 isForeground true scanMode -1
+11-13 17:44:17.410  1028  1309 D BtGatt.ScanManager: uid 10131 isForeground true scanMode 1
+11-13 17:44:17.533  6180  6200 W OpenGLRenderer: Failed to initialize 101010-2 format, error = EGL_SUCCESS
+11-13 17:44:17.799   522   541 W ziparchive: Unable to open '/data/app/~~fkOy5llMcXCRdeBlPhpD1w==/kz.thestudio.fitness.test-_6iICraOFA6mKpiWdFpf1w==/base.dm': No such file or directory
+11-13 17:44:17.800   522   541 I ActivityTaskManager: Displayed kz.thestudio.fitness.test/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity for user 0: +575ms
+11-13 17:44:17.832   838   880 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=falsecallback=android.view.ViewRootImpl$$ExternalSyntheticLambda17@45ef2c5
+11-13 17:44:17.836   401   401 I BpBinder: onLastStrongRef automatically unlinking death recipients:
+11-13 17:44:17.844  1028  1309 D BtGatt.ScanManager: uid 10131 isForeground true scanMode -1
+11-13 17:44:17.844  1028  1309 D BtGatt.ScanManager: uid 10131 isForeground true scanMode -1
+11-13 17:44:17.844  1028  1309 D BtGatt.ScanManager: uid 10131 isForeground true scanMode 1
+11-13 17:44:17.846   522  1638 W InputManager-JNI: Input channel object '87c2e0c Splash Screen kz.thestudio.fitness.test (client)' was disposed without first being removed with the input manager!
+11-13 17:44:17.851  6128  6128 D LifecycleMonitor: Lifecycle status change: androidx.activity.ComponentActivity@b6dce74 in: STOPPED
+11-13 17:44:17.852  6128  6128 V ActivityScenario: Update currentActivityStage to STOPPED, currentActivity=androidx.activity.ComponentActivity@b6dce74
+11-13 17:44:17.939  6128  6128 D LifecycleMonitor: Lifecycle status change: androidx.activity.ComponentActivity@b6dce74 in: DESTROYED
+11-13 17:44:17.939  6128  6128 V ActivityScenario: Update currentActivityStage to DESTROYED, currentActivity=null
+11-13 17:44:17.940  6128  6128 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=falsecallback=android.view.ViewRootImpl$$ExternalSyntheticLambda17@18308f8
+11-13 17:44:18.007  1653  1918 I AiAiEcho: Predicting[0]:
+11-13 17:44:18.007  1653  1918 I AiAiEcho: EchoTargets:
+11-13 17:44:18.007  1653  1918 I AiAiEcho: Filtered by AiAi flag check:
+11-13 17:44:18.007  1653  1918 I AiAiEcho: Ranked targets strategy: SORT, count: 0, ranking metadata:
+11-13 17:44:18.008  1653  1918 I AiAiEcho: #postPredictionTargets: Sending updates to UISurface home with targets# 0 (types=[])
+11-13 17:44:18.141   522  2196 W system_server: Long monitor contention with owner android.anim (545) at android.content.res.Configuration com.android.server.wm.ActivityTaskManagerService.getGlobalConfigurationForPid(int)(ActivityTaskManagerService.java:1133) waiters=0 in android.app.ActivityTaskManager$RootTaskInfo com.android.server.wm.ActivityTaskManagerService.getRootTaskInfo(int, int) for 190ms
+11-13 17:44:18.147   522  1638 W InputManager-JNI: Input channel object 'f719675 kz.thestudio.fitness/androidx.activity.ComponentActivity (client)' was disposed without first being removed with the input manager!
+11-13 17:44:18.167   522  1702 W AppSearchIcing: icing-search-engine.cc:283: Error: 5, Message: Document (com.google.android.googlequicksearchbox$OneSearchZeroStateGoogleSuggestions/default, zp) not found.
+11-13 17:44:18.190  6128  6147 D IdlingRegistry: Unregistering idling resources: [androidx.compose.ui.test.junit4.EspressoLink@fbc68b0]
+11-13 17:44:18.222  6128  6147 I TestRunner: finished: captureAbout(kz.thestudio.fitness.ScreenshotTest)

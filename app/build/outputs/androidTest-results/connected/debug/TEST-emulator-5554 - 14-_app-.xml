@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<testsuite name="kz.thestudio.fitness.ScreenshotTest" tests="4" failures="0" errors="0" skipped="0" time="12.158" timestamp="2026-11-13T17:44:24" hostname="localhost">
+  <properties>
+    <property name="device" value="emulator-5554 - 14" />
+    <property name="flavor" value="" />
+    <property name="project" value=":app" />
+  </properties>
+  <testcase name="captureHome" classname="kz.thestudio.fitness.ScreenshotTest" time="3.999" />
+  <testcase name="captureAbout" classname="kz.thestudio.fitness.ScreenshotTest" time="2.13" />
+  <testcase name="captureSchedule" classname="kz.thestudio.fitness.ScreenshotTest" time="2.72" />
+  <testcase name="captureTrainer" classname="kz.thestudio.fitness.ScreenshotTest" time="2.581" />
+</testsuite>
