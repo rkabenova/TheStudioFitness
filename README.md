@@ -27,6 +27,3 @@
   <img src="./screenshots/04_about.jpg" width="220" alt="О студии" />
 </p>
 
-### 🎨 3D-модель иконки
-
-[⬇️ TheStudio-icon-3d.glb](./assets/TheStudio-icon-3d.glb) — объёмная модель значка бренда (розовая плашка + золотая звезда, PBR-материалы: глянец/металлик), в формате glTF 2.0 binary. Открывается в любом просмотрщике glTF (например [gltf-viewer.donmccurdy.com](https://gltf-viewer.donmccurdy.com)) или Blender.
